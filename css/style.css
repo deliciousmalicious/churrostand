@@ -21,9 +21,16 @@ body {
 }
 
 #banner {
+	background-image:url('../img/surfboards3.jpg');
+	background-repeat:no-repeat;
+	background-position: 80% 50%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	background-color: #EAF0F0;
 	height: 10em;
-	padding: 0;
+	padding: 6em 0 0 0;
 }
 
 .btn-default {
@@ -108,14 +115,17 @@ i {
 
 #intro {
 	background-image:url('http://placehold.it/1150x600');
-	background-color:#cccccc;
 	height:30em;
 }
 
 #locationHours {
-	background-image:url('http://placehold.it/1150x600&text=Map');
+	background-image:url('../img/map3.png');
 	background-color:#cccccc;
-	padding-right: 2em;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #menu {
@@ -128,6 +138,7 @@ i {
 	border-bottom: 5px solid #F07F43;
 }
 
+
 nav li {
 	font-size: .8em;
 	font-family: 'Coustard', serif;
@@ -135,8 +146,9 @@ nav li {
 }
 
 .pTagline {
-	color: rgba(140, 196, 196, 0.3);
+	color: rgba(140, 196, 196, 0.7);
 	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
 	letter-spacing: .1em;
 	text-align: center;
 	text-transform: uppercase;
