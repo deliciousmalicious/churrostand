@@ -29,7 +29,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 	background-color: #EAF0F0;
-	height: 30em;
+	height: 33em;
 	padding: 10em 0 0 0;
 	text-align: center;
 }
@@ -84,6 +84,7 @@ footer {
 }
 
 h1 {
+	color: #F07F43;
 	font-size: 3em;
 	padding-bottom: 2em;
 }
