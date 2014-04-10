@@ -29,8 +29,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 	background-color: #EAF0F0;
-	height: 10em;
-	padding: 6em 0 0 0;
+	height: 30em;
+	padding: 10em 0 0 0;
+	text-align: center;
 }
 
 .btn-default {
@@ -59,6 +60,10 @@ body {
   	-o-transition: all 0.3s ease-in-out;
 }
 
+#churros {
+	padding: 0 0 0 3em;
+}
+
 .dayOfTheWeek {
 	float: left;
 	font-size: .9em;
@@ -76,6 +81,11 @@ footer {
 	font-size: .8em;
 	padding: 2em 0;
 	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	padding-bottom: 2em;
 }
 
 h1, h2 {
@@ -201,7 +211,12 @@ span {
 }
 
 #textMenu {
-	padding: 3em 3em 0 0;
+	font-family: 'Coustard', serif;
+	padding: 6em 3em 0 0;
+}
+
+#textMenu li{
+	padding-bottom: .5em;
 }
 
 ul {
